@@ -9,10 +9,30 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>CreadorDePizzaAW.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Notification - CreadorDePizzaAW.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>D5348C7E1C1ABA56003AE201</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5BD7AA41C280B9B0097753B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D5BD7ACD1C280C360097753B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
