@@ -12,7 +12,6 @@
 		D5348C8A1C1ABA56003AE201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5348C891C1ABA56003AE201 /* Assets.xcassets */; };
 		D5348C8D1C1ABA56003AE201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5348C8B1C1ABA56003AE201 /* LaunchScreen.storyboard */; };
 		D5970D5D1C2F1ED400EB906F /* MasaInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5970D5C1C2F1ED400EB906F /* MasaInterfaceController.swift */; };
-		D5970D5F1C2F1EEC00EB906F /* TamañoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5970D5E1C2F1EEC00EB906F /* TamañoInterfaceController.swift */; };
 		D5970D611C2F1EF400EB906F /* QuesoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5970D601C2F1EF400EB906F /* QuesoInterfaceController.swift */; };
 		D5970D631C2F1EFE00EB906F /* IngredientesInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5970D621C2F1EFE00EB906F /* IngredientesInterfaceController.swift */; };
 		D5970D651C2F1F0400EB906F /* ConfirmarInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5970D641C2F1F0400EB906F /* ConfirmarInterfaceController.swift */; };
@@ -33,6 +32,7 @@
 		D5BD7AE61C280C360097753B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD7AE51C280C360097753B /* NotificationController.swift */; };
 		D5BD7AE81C280C360097753B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BD7AE71C280C360097753B /* Assets.xcassets */; };
 		D5BD7AEC1C280C360097753B /* CreadorDePizzaAW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D5BD7ACE1C280C360097753B /* CreadorDePizzaAW.app */; };
+		D5E08B911C312FDE003FA063 /* TamanoInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E08B901C312FDE003FA063 /* TamanoInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,6 @@
 		D5348C8C1C1ABA56003AE201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5348C8E1C1ABA56003AE201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5970D5C1C2F1ED400EB906F /* MasaInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaInterfaceController.swift; sourceTree = "<group>"; };
-		D5970D5E1C2F1EEC00EB906F /* TamañoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TamañoInterfaceController.swift"; sourceTree = "<group>"; };
 		D5970D601C2F1EF400EB906F /* QuesoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoInterfaceController.swift; sourceTree = "<group>"; };
 		D5970D621C2F1EFE00EB906F /* IngredientesInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesInterfaceController.swift; sourceTree = "<group>"; };
 		D5970D641C2F1F0400EB906F /* ConfirmarInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmarInterfaceController.swift; sourceTree = "<group>"; };
@@ -109,6 +108,7 @@
 		D5BD7AE51C280C360097753B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		D5BD7AE71C280C360097753B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BD7AE91C280C360097753B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E08B901C312FDE003FA063 /* TamanoInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +195,7 @@
 				D5BD7AE91C280C360097753B /* Info.plist */,
 				D5BD7ADF1C280C360097753B /* Supporting Files */,
 				D5970D661C2F1F0E00EB906F /* IniciarInterfaceController.swift */,
-				D5970D5E1C2F1EEC00EB906F /* TamañoInterfaceController.swift */,
+				D5E08B901C312FDE003FA063 /* TamanoInterfaceController.swift */,
 				D5970D5C1C2F1ED400EB906F /* MasaInterfaceController.swift */,
 				D5970D601C2F1EF400EB906F /* QuesoInterfaceController.swift */,
 				D5970D621C2F1EFE00EB906F /* IngredientesInterfaceController.swift */,
@@ -366,7 +366,7 @@
 				D5970D671C2F1F0E00EB906F /* IniciarInterfaceController.swift in Sources */,
 				D5970D611C2F1EF400EB906F /* QuesoInterfaceController.swift in Sources */,
 				D5970D6B1C2F288A00EB906F /* Valores.swift in Sources */,
-				D5970D5F1C2F1EEC00EB906F /* TamañoInterfaceController.swift in Sources */,
+				D5E08B911C312FDE003FA063 /* TamanoInterfaceController.swift in Sources */,
 				D5970D691C2F1F1500EB906F /* FinalizarInterfaceController.swift in Sources */,
 				D5970D631C2F1EFE00EB906F /* IngredientesInterfaceController.swift in Sources */,
 				D5970D5D1C2F1ED400EB906F /* MasaInterfaceController.swift in Sources */,
