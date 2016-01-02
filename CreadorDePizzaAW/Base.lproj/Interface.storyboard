@@ -273,6 +273,7 @@
                             <variation key="device=watch38mm" width="136"/>
                         </label>
                         <button width="1" alignment="left" title="Confirmar" id="kGU-oX-41g">
+                            <variation key="device=watch38mm" title="Confirmar"/>
                             <connections>
                                 <segue destination="3Kg-ll-KUM" kind="modal" id="Uug-r2-9iZ"/>
                             </connections>
